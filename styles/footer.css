@@ -1,0 +1,11 @@
+.linha {
+    background-color: var(--cor-branco);
+}
+
+.rodape {
+    background-color: var(--cor-branco);
+    padding: 1.5em 1em;
+    font-weight: 400;
+    font-family: var(--fonte-poppins);
+}
+
