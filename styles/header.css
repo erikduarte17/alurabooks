@@ -109,4 +109,14 @@
         text-decoration: none;
         color: var(--cor-preto);
     }
+
+    .opcoes__menu:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__menu {
+        display: none;
+    }
+
 }

@@ -32,7 +32,17 @@
         </div>
 
         <ul class="opcoes">
-            <li class="opcoes__item"><a class="opcoes__link" href="#">Categorias</a></li>
+            <input type="checkbox" id="opcoes-menu" class="opcoes__menu">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">PROGRAMAÇÃO</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">FRONT-END</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">INFRAESTRUTURA</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">BUSINESS</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">DESIGN & UX</a></li>
+            </ul>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Favoritos</a></li>
             <li class="opcoes__item"><a class="opcoes__link" href="#">Minha estante</a></li>
         </ul>
@@ -49,6 +59,7 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+    
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
         <!-- Slider main container -->
