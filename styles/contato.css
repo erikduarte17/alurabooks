@@ -46,3 +46,28 @@
     text-align: center;
     color: var(--cor-azul);
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .contato {
+        padding: 2.5em 15%;
+        display: flex;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .contato__texto {
+        margin-top: .5em
+    }
+
+    .contato__email {
+        width: 50%;
+        height: 1em;
+        justify-content: center;
+        margin: auto 0;
+    }
+
+}

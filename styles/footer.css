@@ -9,3 +9,41 @@
     font-family: var(--fonte-poppins);
 }
 
+@media screen and (min-width: 1024px) {
+    
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        gap: 4em;
+    }
+
+    .rodape__titulo {
+        width: 20%;
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--cor-preto);
+    }
+
+    .rodape__lista-lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5em;
+        margin: .5em 0;
+    }
+
+    .rodape__lista__titulo {
+        color: var(--cor-cinza);
+        margin-bottom: .5em;
+        text-transform: uppercase;
+    }
+
+    .ropade__lista__texto {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--cor-cinza-escuro);
+    }
+
+
+
+}

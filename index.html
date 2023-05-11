@@ -96,7 +96,7 @@
                     <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                 </div>
                 <!-- 2a coluna -->
-                <img src="./assets/AngularSymbol.svg" alt="Imagem Angular e Firebase">
+                <img src="./assets/AngularSymbol.svg" alt="Imagem Angular e Firebase" class="card__imagem">
             </div>
             <!-- 2a linha -->
             <div class="card__botoes">
@@ -146,7 +146,7 @@
                     <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
                 </div>
                 <!-- 2a coluna -->
-                <img src="./assets/Escritora.svg" alt="Imagem Perfil Escritora">
+                <img src="./assets/Escritora.svg" alt="Imagem Perfil Escritora" class="card__imagem">
             </div>
             <!-- 2a linha -->
             <div class="card__botoes">
@@ -190,12 +190,40 @@
     </section>
 
     <section class="contato">
-        <h3 class="contato__titulo">Fique por dentro das novidades!</h3>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div>
+            <h3 class="contato__titulo">Fique por dentro das novidades!</h3>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email\" class="contato__email" placeholder="Cadastre seu e-mail">
     </section>    
     <footer class="rodape">
-        <h3 class="rodape__titulo">Erik Duarte</h3>
+        <h2 class="rodape__titulo">Erik Duarte</h2>
+        <ul class="rodape__lista">
+            <h3 class="rodape__lista__titulo">Educação</h3>
+            <li class="rodape__lista-lista"><img src="./assets/Caelum.svg"><a href="#" class="rodape__lista__texto">Caelum</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/CasaDoCodigo.svg"><a href="#" class="rodape__lista__texto">Casa do Código</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <h3 class="rodape__lista__titulo">Educação Online</h3>
+            <li class="rodape__lista-lista"><img src="./assets/Alura.svg"><a href="#" class="rodape__lista__texto">Alura</a></li>            
+            <li class="rodape__lista-lista"><img src="./assets/AluraEmpresas.svg"><a href="#"  class="rodape__lista__texto">Alura para Empresas</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/AluraLATAM.svg"><a href="#"  class="rodape__lista__texto">Alura LATAM</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/AluraStart.svg"><a href="#"  class="rodape__lista__texto">Alura Start</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/MusicDot.svg"><a href="#" class="rodape__lista__texto">MusicDot</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/AluraLingua.svg"><a href="#" class="rodape__lista__texto">Alura Língua</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/PM3.svg"><a href="#" class="rodape__lista__texto">PM3</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <h3 class="rodape__lista__titulo">Comunidade</h3>
+            <li class="rodape__lista-lista"><img src="./assets/HipstersTech.svg"><a href="#" class="rodape__lista__texto">Hipsters ponto Tech</a></li>            
+            <li class="rodape__lista-lista"><img src="./assets/ScubaDev.svg"><a href="#" class="rodape__lista__texto">Scuba Dev</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/LayersTech.svg"><a href="#" class="rodape__lista__texto">Layers ponto Tech</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/LikeABoss.svg"><a href="#" class="rodape__lista__texto">Like a Boss</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/CarreiraSemFronteira.svg"><a href="#" class="rodape__lista__texto">Carreira sem Fronteira</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/HipstersJobs.svg"><a href="#" class="rodape__lista__texto">Hipsters ponto Jobs</a></li>
+            <li class="rodape__lista-lista"><img src="./assets/GUJ.svg"><a href="#" class="rodape__lista__texto">GUJ</a></li>
+        </ul>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -206,6 +234,10 @@
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         });
     </script>
