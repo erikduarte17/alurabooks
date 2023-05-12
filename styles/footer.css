@@ -9,12 +9,21 @@
     font-family: var(--fonte-poppins);
 }
 
+.rodape__lista {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     
     .rodape {
         display: flex;
         flex-direction: row;
         gap: 4em;
+    }
+
+    .rodape__lista {
+        display: block;
+        padding-left: 1em;
     }
 
     .rodape__titulo {
@@ -38,12 +47,35 @@
         text-transform: uppercase;
     }
 
-    .ropade__lista__texto {
+    .rodape__lista__link {
         font-size: 14px;
         font-weight: 400;
         color: var(--cor-cinza-escuro);
+        text-decoration: none;
     }
 
+    
 
+}
 
+@media screen and (min-width: 1728px) {
+
+    .rodape {
+        justify-content: space-evenly;
+        padding: 3em;
+    }
+
+    .rodape__titulo {
+        text-align: right;
+    }
+
+    .rodape__lista__titulo {
+        padding-bottom: 1em;
+    }
+
+    .rodape__lista {
+        border-left: solid 1px var(--cor-cinza);
+        padding-left: 2em;
+    }
+    
 }

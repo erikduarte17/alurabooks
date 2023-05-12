@@ -52,6 +52,7 @@
     .contato {
         padding: 2.5em 15%;
         display: flex;
+        justify-content: space-evenly;
     }
 
     .contato__titulo {
@@ -68,6 +69,14 @@
         height: 1em;
         justify-content: center;
         margin: auto 0;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .contato__email {
+        width: 30%;
     }
 
 }
